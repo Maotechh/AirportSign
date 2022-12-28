@@ -1,3 +1,4 @@
+#青龙面板版本
 #此脚本为ikuu机场签到脚本如果你没有注册请到这个链接注册https://ikuuu.one/auth/register?code=c2zw
 import requests
 import re
@@ -43,4 +44,3 @@ for iIi1ii1I1iI11 in iIIiiIIiii1 :
 if i111IiI1Iii1I == [ ] :
  print ( "账号或密码错误，请检查" )
  if 55 - 55: I11II1Ii % iIi
-# dd678faae9ac167bc83abf78e5cb2f3f0688d3a3
