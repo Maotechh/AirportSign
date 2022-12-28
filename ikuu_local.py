@@ -1,3 +1,4 @@
+#适配本地运行
 #此脚本为ikuu机场签到脚本如果你没有注册请到这个链接注册https://ikuuu.one/auth/register?code=c2zw
 import requests
 import re
@@ -5,8 +6,12 @@ import json
 import time
 import os
 import sys
-a=input("enter email")
-ab=input("enter password")
+a=input("enter email") #或者你直接把email填到下面一行，这一行注释掉，下一行取消注释
+#a='aaabbb@ccc.com'
+ab=input("enter password") #或者你直接把password填到下面一行，这一行注释掉，下一行取消注释
+#ab='thisispassword'
+
+
 # def fuck():
 #     if os.environ.get("ikid"):
 #         dr = os.environ["ikid"]
@@ -44,5 +49,5 @@ for it in result:
  a.append(it.group("name"))
 if a == [] :
     print("账号或密码错误，请检查")
-#6
+
 
