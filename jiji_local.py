@@ -1,3 +1,4 @@
+#适配本地运行
 #此脚本为几鸡机场签到脚本如果你没有注册请到这个链接注册https://b.luxury/waf/PgAB7k3DmpXU1bNf2
 import requests
 import re
@@ -5,6 +6,13 @@ import json
 import time
 import os
 import sys
+
+i111IiI1Iii1I = input("enter email")#或者你直接把email填到下面一行，这一行注释掉，下一行取消注释
+#i111IiI1Iii1I='aaabbb@ccc.com'
+Ii = input("enter password")#或者你直接把password填到下面一行，这一行注释掉，下一行取消注释
+#Ii='thisispassword'
+
+
 # def iIiii1i111i1I ( ) :
 #  if os . environ . get ( "jcid" ) :
 #   iii = os . environ [ "jcid" ]
@@ -12,7 +20,7 @@ import sys
 #   return iii
 #  else :
 #   print ( "获取账号失败，请export jcid='你的账号'" )
-i111IiI1Iii1I = input("enter email")
+
 # def OoOo ( ) :
 #  if os . environ . get ( "jcpw" ) :
 #   III = os . environ [ "jcpw" ]
@@ -24,7 +32,6 @@ i111IiI1Iii1I = input("enter email")
 #   return III
 #  else :
 #   print ( "获取密码失败，请export jcpw='你的密码'" )
-Ii = input("enter password")
 IIii11Ii = requests . session ( )
 OOoOoo000O00 = {
  "email" : i111IiI1Iii1I ,
