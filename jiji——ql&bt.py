@@ -1,3 +1,4 @@
+#适配宝塔计划任务和青龙面板
 #此脚本为几鸡机场签到脚本如果你没有注册请到这个链接注册https://b.luxury/waf/PgAB7k3DmpXU1bNf2
 import requests
 import re
