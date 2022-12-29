@@ -1,5 +1,5 @@
 #适配本地运行
-#此脚本为ikuu机场签到脚本如果你没有注册请到这个链接注册https://ikuuu.one/auth/register?code=c2zw
+#此脚本为ikuuu机场签到脚本如果你没有注册请到这个链接注册https://ikuuu.one/auth/register?code=c2zw
 import requests
 import re
 import json
