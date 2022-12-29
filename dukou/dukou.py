@@ -7,20 +7,9 @@
 accesstoken = '填写你的access-token'
 cookie = '_ga=xxxxxxxxxx; _gid=xxxxxxxxx'
 #-------------------------------------------
-
-
-
-
 import requests
-import re
 import json
-import time
-import os
-import sys
-from bs4 import BeautifulSoup
-import html
 import json
-
 
 url = 'https://dukou.dev/api/user/checkin'
 headers = {
@@ -41,6 +30,5 @@ headers = {
 
 response = requests.get(url, headers=headers)
 response_dict = json.loads(response.text)
-
 result = response_dict['result']
 print(result)
